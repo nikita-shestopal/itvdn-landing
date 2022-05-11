@@ -1,0 +1,19 @@
+.menu{
+    width: 500px;
+    height: 400px;
+
+    &__item{
+        color: red;
+    }
+    &__link{
+        color: green;
+
+        &:hover{
+            color: green;
+        }
+        &:active{
+            color: blue;
+        }
+    }
+}
+
